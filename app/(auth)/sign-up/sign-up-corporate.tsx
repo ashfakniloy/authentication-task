@@ -27,7 +27,7 @@ export default function SignUpPersonal() {
     phone: "",
     password: "",
     company_name: "",
-    type: "personal",
+    type: "corporate",
     profession: "",
     country: "",
     team_size: "",
