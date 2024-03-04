@@ -1,6 +1,6 @@
 ## Live Demo
 
-[Explore the Live Demo](https://authentication-task-niloy.vercel.app/)
+[Explore the Live Demo](https://authentication-task-one.vercel.app/)
 
 ## Getting Started
 

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import SocialSignIn from "../social-sign-in";
 import Link from "next/link";
 import SignUpOptions from "./sign-up-options";
 
@@ -18,10 +17,6 @@ export default function SignUpPage() {
       <div className="mt-5">
         <SignUpOptions />
       </div>
-
-      {/* <div className="mt-5">
-        <SocialSignIn />
-      </div> */}
 
       <div className="mt-4 flex justify-center gap-2 text-sm">
         <p className="text-custom-gray2">Already a Gotipath member?</p>
