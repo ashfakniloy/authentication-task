@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js and npm installed.
+- Other dependencies installed (specified in package.json).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ashfakniloy/authentication-task.git
+   cd authentication-task
+   ```
+
+2. Install dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+### Configuration
+
+1.  Create a `.env` file in the project root and set the required environment variable:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    NEXT_PUBLIC_API_URL=
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Development Server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    `npm run dev`
 
-## Learn More
+2.  Open your web browser and navigate to [http://localhost:3000](http://localhost:3000/) to access the project locally.
 
-To learn more about Next.js, take a look at the following resources:
+### Building for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  To build the project for production, use the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    `npm run build`
 
-## Deploy on Vercel
+2.  Start the production server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    `npm start`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Now, your project is up and running locally with the database set up and ready for use.
+
+## Author
+
+### Ashfak Ahmed Niloy
+
+- Email: ashfakniloy@gmail.com
+- Portfolio: https://niloy.vercel.app
+- GitHub: https://github.com/ashfakniloy
