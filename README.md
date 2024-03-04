@@ -1,3 +1,7 @@
+## Live Demo
+
+[Explore the Live Demo](https://authentication-task-niloy.vercel.app/)
+
 ## Getting Started
 
 ### Prerequisites
@@ -46,7 +50,7 @@
 
     `npm start`
 
-Now, your project is up and running locally with the database set up and ready for use.
+Now the project is up and running locally and ready for use.
 
 ## Author
 
