@@ -13,8 +13,6 @@ import {
 } from "@/schemas/sign-up-personal-schema";
 import { PhoneField } from "@/components/form-fields/phone-field";
 import { SelectField } from "@/components/form-fields/select-field";
-import { ComboField } from "@/components/form-fields/combo-field";
-import { countriesList } from "@/data/countries-list";
 import { API_URL } from "@/config";
 import { professionList } from "@/data/profession-list";
 import { teamSizeList } from "@/data/team-list";
@@ -125,12 +123,6 @@ export default function SignUpPersonal() {
           label="Country"
           placeholder="Enter country"
         />
-        {/* <ComboField
-          name="country"
-          label="Country"
-          placeholder="Select country"
-          options={countriesList}
-        /> */}
         <SelectField
           name="profession"
           label="Profession"
